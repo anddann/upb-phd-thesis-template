@@ -17,6 +17,6 @@ jobs:
           filename: my-thesis.tex
 
       - name: my-artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: my-thesis.pdf
