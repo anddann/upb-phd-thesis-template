@@ -1,0 +1,86 @@
+% !TEX root = ../my-thesis.tex
+%
+% ------------------------------------  --> cover title page
+% \begin{titlepage}
+% 	\pdfbookmark[0]{Cover}{Cover}
+% 	\flushright
+% 	\hfill
+% 	\vfill
+% 	{\LARGE\thesisTitle \par}
+% 	\rule[5pt]{\textwidth}{.4pt} \par
+% 	{\Large\thesisName}
+% 	\vfill
+% 	\textit{\large\thesisDate} \\
+% 	Version: \thesisVersion
+% \end{titlepage}
+
+
+% ------------------------------------  --> main title page
+\begin{titlepage}
+	\pdfbookmark[0]{Titlepage}{Titlepage}
+	\tgherosfont
+	\centering
+
+	% {\Large \thesisUniversity} \\[4mm]
+	\includegraphics[width=6cm]{gfx/UPB-Logo.pdf} \\[2mm]
+	\textsf{\thesisUniversityDepartment} \\
+	\textsf{\thesisUniversityInstitute} \\
+	\textsf{\thesisUniversityGroup} \\
+
+	\vfill
+	% {\large \thesisSubject} \\[5mm]
+	{\LARGE \color{ctcolortitle}\textbf{\thesisTitle} \\[10mm]}
+	{\Large \thesisName} \\
+
+	\vfill
+	{
+	\centering
+	%\begin{minipage}[t]{1\textwidth}
+		\thesisSubject \\[2mm]
+		Submitted in partial fulfillment of the requirements for the degree of \\[2mm]
+		\textit{Doktor der Naturwissenschaften (Dr. rer. nat.)}
+	%\end{minipage} \\[10mm]
+	}
+	\vfill
+	{\centering
+
+		\textit{Advisors}\\[2mm]
+		\thesisFirstSupervisor\ \\ \thesisSecondSupervisor\\[12mm]
+
+
+		Paderborn, \thesisDate \\
+	}
+
+	% \begin{minipage}[t]{.27\textwidth}
+	% 	\raggedleft
+	% 	\textit{Advisors}
+	% \end{minipage}
+	% \hspace*{15pt}
+	% \begin{minipage}[t]{.65\textwidth}
+	% 	\thesisFirstSupervisor\ \\ \thesisSecondSupervisor
+	% \end{minipage} \\[10mm]
+
+	% \vfill
+	% {\centering
+	% Paderborn, \thesisDate \\
+	% }
+\end{titlepage}
+
+
+% ------------------------------------  --> lower title back for single page layout
+\hfill
+\vfill
+{
+	\small
+	\textbf{\thesisName} \\
+	\textit{\thesisTitle} \\
+	\thesisSubject, \thesisDate \\
+	% Reviewers: \thesisFirstReviewer\ and \thesisSecondReviewer \\
+	Advisors: \thesisFirstSupervisor\ and \thesisSecondSupervisor \\[1.5em]
+	\textbf{\thesisUniversity} \\
+	\textit{\thesisUniversityGroup} \\
+	\thesisUniversityInstitute \\
+	\thesisUniversityDepartment \\
+	\thesisUniversityStreetAddress \\
+	\thesisUniversityPostalCode\ \thesisUniversityCity
+}

@@ -1,0 +1,27 @@
+\usepackage[nolist,nohyperlinks]{acronym}
+\begin{acronym}[Bash]
+	\acro{abi}[ABI]{Application Binary Interface\xspace}
+	\acro{api}[API]{Application Programming Interface\xspace}
+	\acro{cpe}[CPE]{Common Platform Enumeration\xspace}
+	\acro{cve}[CVE]{Common Vulnerabilities and Exposures\xspace}
+	\acro{jcl}[JCL]{Java Class Library\xspace}
+	\acro{jdk}[JDK]{Java Development Kit\xspace}
+	\acro{jre}[JRE]{Java Runtime Environment\xspace}
+	\acro{jvm}[JVM]{Java Virtual Machine\xspace}
+	\acro{nvd}[NVD]{National Vulnerability Database\xspace}
+	\acro{oss}[OSS]{Open-Source Software\xspace}
+	\acro{sbom}[SBOM]{Software Bill of Materials\xspace}
+\end{acronym}
+
+%enforce the expansion of acronyms in each new section
+\usepackage{etoolbox}
+\preto\chapter\acresetall
+
+% My Own Commands
+\newcommand{\myCom}{MyCommand\xspace}
+
+
+\hyphenation{Java-Script}
+
+\hyphenation{de-pen-den-cy}
+\hyphenation{auto-ma-tion}

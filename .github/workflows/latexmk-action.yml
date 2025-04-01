@@ -1,0 +1,22 @@
+---
+name: CI
+
+on: [push]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Generate PDF document
+        uses: hspaans/latexmk-action@v1
+        with:
+          format: pdf
+          filename: my-thesis.tex
+
+      - name: my-artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: my-thesis.pdf
