@@ -1,6 +1,6 @@
 # PhD LaTeX Template
 
-I've prepared a LaTeX template based on **Cleanthesis** v0.4.1.  
+I've prepared a LaTeX template based on [**Cleanthesis** v0.4.1](https://github.com/derric/cleanthesis).  
 
 ## Build Instructions  
 To compile the document, use:  
@@ -15,6 +15,13 @@ You can find the workflow files in the .github folder.
 ## ✅ Additional Features
  - 📝 Spell checking scripts
  - 📖 Reference checks scripts
+ - Listing Environment
+ - Table Styling
+ - Listing Styling
+ - Support for Sub-Listings
+ - Added Acronyms
+ - Use CleverRef
+
 
 Feel free to modify and extend as needed! 🚀
 
@@ -32,6 +39,8 @@ To run the reference check script, use:
 ```bash
 ./reference-check.sh
 ```
+
+
 
 
 ## Manual Compilation
