@@ -40,6 +40,8 @@ To run the reference check script, use:
 ./reference-check.sh
 ```
 
+## Note for Printing
+If you need to print your thesis and want to minimize costs due to extra charges for color pages, I recommend setting the option to colorize=reduced or even colorize=bw.
 
 
 
